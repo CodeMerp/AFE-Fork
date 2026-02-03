@@ -389,6 +389,7 @@ const Registration = () => {
                         isInvalid={!!errors.users_tel1}
                         errorMessage={errors.users_tel1?.message}
                         isValid={isFieldValid("users_tel1")}
+                        required
                     />
 
 
